@@ -1,0 +1,394 @@
+  .want_there_button
+  {
+    background-color: #766458;
+    width: 160px;
+    height: 37px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .logo_container
+  {
+    background-image: url("/img/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+    .visually_hidden
+  {
+    display: none;
+  }
+  .hotelsearch-button {
+    height: 60px;
+    width: 575px;
+  }
+.filter-settings
+{
+  background-image: url("/img/catalog-background 1.jpg");
+  background-size: 100%;
+}
+.button-apply
+{
+  width: 160px;
+  height: 48px;
+  background-color: #83B3D3;
+  color: white;
+}
+.button-show-more
+{
+width: 625px;
+height: 55px;
+background-color: #83B3D3;
+color: white;
+}
+.pagination-item
+{
+  width: 55px;
+  height: 55px;
+  background-color: #83B3D3;
+  color: white;
+}
+.newsletter-button
+{
+width: 200px;
+height: 61px;
+background-color: #83B3D3;
+color: white;
+}
+.social-media-twitter
+{
+  background-image: url('/img/social-twitter.svg');
+  width: 18px;
+  height: 15px;
+  background-repeat: no-repeat;
+}
+.social-media-facebook
+{
+  background-image: url('/img/social-facebook.svg');
+  width: 18px;
+  height: 15px;
+  background-repeat: no-repeat;
+}
+.social-media-youtube
+{
+  background-image: url('/img/social-youtube.svg');
+  width: 18px;
+  height: 15px;
+  background-repeat: no-repeat;
+}
+@font-face
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans";
+}
+.main-title
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-shadow: 0px 4px 14px #000000;
+}
+.title-description
+{
+font-family: "PT Sans";
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+text-align: center;
+line-height: 36px;
+}
+.advantages-title
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.advantages
+{
+  background-color: #83B3D3;
+  width: 400px;
+  height: 384px;
+}
+.advantages-num
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  line-height: 28px;
+  color: white;
+}
+.advantages-description
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  text-align: center;
+}
+.assortment-item
+{
+  width: 400px;
+  height: 384px;
+  background: rgba(131, 179, 211, .12);
+}
+.assortment-title
+{
+font-family: "PT Sans";
+font-weight: bold;
+font-size: 24px;
+text-align: center;
+line-height: 28px;
+}
+.assortment-description
+{
+font-family: "PT Sans";
+font-style: normal;
+font-size: 18px;
+text-align: center;
+line-height: 21px;
+}
+.assortment-item-food
+{
+  width: 400px;
+  height: 384px;
+  background: white;
+}
+.advantages-num2
+{
+  text-align: center;
+}
+.assortment2-item
+{
+width: 400px;
+height: 384px;
+background: rgba(131, 179, 211, .2);
+}
+.hotelsearch-title
+{
+  font-family: "PT Sans";
+  font-weight: bold;
+  width: 720px;
+  height: 50px;
+  line-height: 36px;
+  text-align: center;
+}
+.hotelsearch-description
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  width: 720px;
+  height: 37px;
+  line-height: 27px;
+  text-align: center;
+}
+.text_inside
+{
+font-family: "PT Sans";
+font-weight: bold;
+width: 575px;
+height: 30px;
+text-transform: uppercase;
+line-height: 36px;
+}
+.newsletter-title
+{
+  font-family: "PT Sans";
+  font-weight: bold;
+  width: 720px;
+  height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.newsletter
+{
+background-image: url(/img/background.jpg);
+background-repeat: no-repeat;
+}
+.footer_input
+{
+width: 600px;
+height: 60px;
+font-family: "PT Sans";
+font-style: normal;
+font-size: 18px;
+}
+.subscribe_button
+{
+font-family: "PT Sans";
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+line-height: 26px;
+}
+.contact-num
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  line-height: 40px;
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+.inner-header-title
+{
+  font-family: "PT Sans";
+  font-weight: bold;
+  width: 528px;
+  height: 68px;
+  line-height: normal;
+  text-align: left;
+  color:white;
+}
+.breadcrumbs-item
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  color: white;
+}
+.catalog-filter-title
+{
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: normal;
+  color:white;
+}
+.control-label
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 18px;
+  color:white;
+}
+.button-apply
+{
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 16px;
+}
+.button-reset
+{
+  background-color: transparent;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 18px;
+  border: none;
+  color: white;
+}
+.hotels_found
+{
+  font-family: "PT Sans";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: normal;
+}
+.select-control
+{
+  width: 287px;
+  height: 48px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 18px;
+}
+.typeofhousing-card-title
+{
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+.typeofhousing-card-link
+{
+  text-decoration: none;
+}
+.typeofhousing-card-details
+{
+  color: white;
+  text-decoration: none;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+}
+.button-details
+{
+  width: 151px;
+  height: 37px;
+  background-color: #766458;
+}
+.button-fav
+{
+  width: 160px;
+  height: 37px;
+  background-color: #83B3D3;
+}
+.typeofhousing-card-fav
+{
+  text-decoration: none;
+  color: white;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+}
+.typeofhousing-card-htype
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 18px;
+}
+.typeofhousing-card-price
+{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 18px;
+}
+.button-show-more
+{
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+.no_bg_image
+{
+  background-image: none;
+}
+.text_black
+{
+  color: black;
+}
+.htmlacademylogo
+{
+  background-image: url(/img/logo_htmlacademy.png);
+  background-repeat: no-repeat;
+  width: 115px;
+  height: 34px;
+}

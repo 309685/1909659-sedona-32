@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -20,18 +21,17 @@
           <a class="navigation-link" href="#">Гостиницы</a>
         </li>
       </ul>
-      <img class="logo" src="#" alt="sedona_logo">
+      <img class="logo" src="img/sedona_logo.svg" alt="sedona_logo" width="138" height="70">
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
-          <a class="navigation-link" href="#"><img src="icons/magnifyer.png" width="18" height="18"
-              alt="magnifyer_icon">
+          <a class="navigation-link" href="#"><img src="img/search.svg" width="18" height="18" alt="magnifyer_icon">
             <span class="visually-hidden">
               Поиск
             </span>
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#"><img src="icons/heart.svg" width="18" height="18" alt="heart_icon">
+          <a class="navigation-link" href="#"><img src="img/favourites.svg" width="31" height="27" alt="heart_icon">
             <span class="visually-hidden">
               Избранное
             </span>
@@ -47,22 +47,25 @@
     </nav>
   </header>
   <main>
-    <h1 class="visually-hidden">
-      Тур в Седонну
-    </h1>
-    <img class="logo" src="site_logo" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!">
+    <section class="logo_container">
+      <h1 class="visually-hidden">
+        Тур в Седонну
+      </h1>
+      <img class="logo" src="img/welcome.svg" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!">
+    </section>
     <section class="title">
       <h2 class="main-title">
-        Седона — небольшой городок в Аризоне, заслуживающий большего!
+        СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
       </h2>
       <p class="title-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
     <section class="advantages">
       <h3 class="advantages-title">Настоящий городок</h3>
       <p class="advantages-num">-№1-</p>
-      <p class="advantages-description">Седона — не аттракцион для туристов, там течёт
+      <p class="advantages-description">Седона — не аттракцион<br> для туристов, там течёт<br>
         своя жизнь</p>
     </section>
+    <img class="real_city" src="img/real_city.jpg" alt="Sedona is a real city">
     <section class="assortment">
       <ul class="assortment-list">
         <li class="assortment-item">
@@ -70,12 +73,12 @@
             Жилье
           </h3>
           <p class="assortment-description">
-            Рекомендуем пожить
-            в настоящем мотеле,
+            Рекомендуем пожить<br>
+            в настоящем мотеле,<br>
             всё как в кино!
           </p>
         </li>
-        <li class="assortment-item">
+        <li class="assortment-item-food">
           <h3 class="assortment-title">
             Еда
           </h3>
@@ -96,70 +99,73 @@
     <section class="advantages">
       <h3 class="advantages-title">Там есть мост дьявола</h3>
       <p class="advantages-num">-№2-</p>
-      <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+      <p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
     </section>
+    <img class="devils_bridge" src="img/devils_bridge.jpg" alt="Devil's bridge">
     <section class="assortment2">
       <ul class="assortment2-list">
-        <li class="assortment2-item">
-          <h3 class="assortment2-title">
+        <li class="assortment-item">
+          <h3 class="assortment-title">
             Небольшая площадь
           </h3>
-          <p class="assortment2-num">-№3-</p>
-          <p class="assortment2-description">
-            Все достопримечательности находятся очень близко
+          <p class="advantages-num2">-№3-</p>
+          <p class="assortment-description">
+            Все достопримечательности<br> находятся очень близко
           </p>
         </li>
         <li class="assortment2-item">
-          <h3 class="assortment2-title">
+          <h3 class="assortment-title">
             Красивая дорога
           </h3>
-          <p class="assortment2-num">-№4-</p>
-          <p class="assortment2-description">
-            Ехать в Седону из Лас-Вегаса совсем не скучно!
+          <p class="advantages-num2">-№4-</p>
+          <p class="assortment-description">
+            Ехать в Седону из Лас-Вегаса<br> совсем не скучно!
           </p>
         </li>
-        <li class="assortment2-item">
-          <h3 class="assortment2-title">
+        <li class="assortment-item">
+          <h3 class="assortment-title">
             Мало туристов
           </h3>
-          <p class="assortment2-num">-№5-</p>
-          <p class="assortment2-description">
-            Большинство едет в Гранд Каньон и толпится там
+          <p class="advantages-num2">-№5-</p>
+          <p class="assortment-description">
+            Большинство едет в Гранд<br> Каньон и толпится там
           </p>
         </li>
       </ul>
     </section>
     <section class="hotelsearch">
       <h2 class="hotelsearch-title">Заинтересовались?</h2>
-      <p class="hotelsearch-description">Укажите предполагаемые даты поездки,
+      <p class="hotelsearch-description">Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
-      <button class="hotelsearch-button" type="button">Поиск гостиницы в Седоне</button>
+      <button class="want_there_button hotelsearch-button" type="button">
+        <span class="text_inside">Поиск гостиницы в Седоне</span>
+      </button>
     </section>
   </main>
-    <footer>
+  <footer>
     <section class="newsletter">
       <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
       <p class="newsletter-description">Только полезная информация и никакого спама,
         честное бойскаутское!</p>
       <form class="newsletter-subscription" action="https://echo.htmlacademy.ru/" method="post">
-        <input type="text" name="newsletter-email">
-        <button class="newsletter-button" type="submit">Подписаться</button>
+        <input class="footer_input" type="text" name="newsletter-email" placeholder="Ваш e-mail">
+        <button class="newsletter-button" type="submit">
+          <span class="subscribe_button">Подписаться</span>
+        </button>
       </form>
     </section>
     <ul class="social-media">
       <li class="social-media-twitter">
-        <img alt="twitter-pic" src="#">
       </li>
       <li class="social-media-facebook">
-        <img alt="facebook-pic" src="#">
       </li>
       <li class="social-media-youtube">
-        <img alt="youtube-pic" src="#">
       </li>
     </ul>
-    <p class="contact-num"><a href="tel:+7(812)8121212">+7 (812) 812-12-12</a></p>
-    <p class="htmlacademylogo">.html<br>academy</p>
+    <p><a class="contact-num" href="tel:+7(812)8121212">+7 (812) 812-12-12</a></p>
+    <p class="htmlacademylogo"></p>
   </footer>
 </body>
+
 </html>
